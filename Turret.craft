@@ -1,70 +1,27 @@
 name: Turret
-maxSize: 1000
+maxSize: 250
 minSize: 1
 allowedBlocks:
-    - water
-    - lava
-    - "#logs"
-    - "#glass"
-    - dispenser
-    - note_block
-    - "#beds"
-    - sticky_piston
-    - piston
-    - piston_head
-    - light_gray_wool
-    - gold_block
-    - "#slabs"
-    - bookshelf
-    - torch
-    - "#wooden_stairs"
-    - nether_brick_stairs
-    - "#chests"
-    - redstone_wire
-    - diamond_block
-    - crafting_table
-    - furnace
-    - blast_furnace
-    - smoker
-    - "#signs"
-    - "#doors"
-    - ladder
-    - lever
     - "#pressure_plates"
     - "#buttons"
-    - "#fences"
-    - glowstone
-    - cake
-    - repeater
-    - "#wooden_trapdoors"
+    - "#glass"
     - iron_bars
-    - "#fence_gates"
-    - brewing_stand
-    - cauldron
-    - redstone_lamp
-    - ender_chest
-    - tripwire_hook
-    - tripwire
-    - emerald_block
-    - beacon
-    - flower_pot
-    - "#heads"
-    - "#anvil"
-    - comparator
-    - daylight_detector
-    - redstone_block
-    - hopper
-    - activator_rail
-    - dropper
-    - slime_block
-    - "#carpets"
-    - end_stone_bricks
+    - gold_block
+    - grindstone
+    - gold_block
     - "#concrete"
     - "#terracotta"
+    - redstone_lamp
+    - end_stone_bricks
+    - stone_bricks 
+    - stone_brick_slab
+    - stone_brick_stairs
 
-canFly: true
+
+canFly: false
 canCruise: false
-maxHeightLimit: 144
+canStaticMove: true
+maxStaticMove: 2
 collisionExplosion: 0.0
 explodeOnCrash: 2.0
 allowHorizontalMovement: false
