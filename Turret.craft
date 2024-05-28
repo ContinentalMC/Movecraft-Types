@@ -56,15 +56,11 @@ allowedBlocks:
     - hopper
     - activator_rail
     - dropper
-    - gray_terracotta
-    - light_gray_terracotta
-    - black_terracotta
-    - gray_concrete
-    - light_gray_concrete
-    - black_concrete
     - slime_block
     - "#carpets"
     - end_stone_bricks
+    - "#concrete"
+    - "#terracotta"
 
 canFly: true
 canCruise: false
