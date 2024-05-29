@@ -3,6 +3,7 @@ maxSize: 7
 minSize: 1
 allowedBlocks: 
     - coal_block
+    - tnt
 
 canCruise: true
 cruiseOnPilot: true
