@@ -1,5 +1,5 @@
-name: Submarine
-maxSize: 100000
+name: Sub
+maxSize: 1000
 minSize: 10
 allowedBlocks:
     - "#planks"
@@ -10,9 +10,6 @@ allowedBlocks:
     - dispenser
     - note_block
     - "#beds"
-    - sticky_piston
-    - piston
-    - piston_head
     - "#wool"
     - gold_block
     - iron_block
@@ -37,7 +34,6 @@ allowedBlocks:
     - redstone_torch
     - redstone_wall_torch
     - "#buttons"
-    - clay
     - "#fences"
     - netherrack
     - glowstone
@@ -47,7 +43,6 @@ allowedBlocks:
     - "#stone_bricks"
     - iron_bars
     - "#fence_gates"
-    - nether_brick
     - enchanting_table
     - brewing_stand
     - cauldron
@@ -104,15 +99,18 @@ allowVerticalMovement: true
 fuelBurnRate: 1.0
 tryNudge: false
 flyblocks:
-    ["#planks", "#wooden_slabs"]:
-        - 25.0
-        - 100.0
     "#anvil": # anvils are OP armor, so limit it
         - 0.0
         - 1.0
     obsidian: # so is obsidian
         - 0.0
         - 1.0
+    "#terracotta": # Terracotta is armor
+        - 0.0
+        - 30.0
     iron_block:
         - 15.0
         - 100.0
+    "#glass":
+        - 2.0
+        - 15.0

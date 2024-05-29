@@ -12,8 +12,8 @@ forbiddenBlocks:
 canFly: true
 rotateAtMidpoint: true
 canCruise: false
-cruiseSpeed: 1.5
-cruiseSkipBlocks: 1
+cruiseSpeed: 0
+cruiseSkipBlocks: 0
 maxHeightLimit: 130
 maxHeightAboveGround: 46
 collisionExplosion: 0.0
@@ -24,7 +24,7 @@ overallSinkPercent: 97.0
 detectionMultiplier: 20.0
 underwaterDetectionMultiplier: 2.0
 smokeOnSink: 1
-keepMovingOnSink: true
+keepMovingOnSink: false
 speed: 0.5
 tryNudge: false
 sinkPercent: 99.0
