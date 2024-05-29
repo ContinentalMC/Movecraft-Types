@@ -123,5 +123,8 @@ flyblocks:
     water: # so is water
         - 0.0
         - 1.0
+    "#terracotta"
+        - 0.0
+        - 40.0
 maxCannons:
     torpedo: N1
