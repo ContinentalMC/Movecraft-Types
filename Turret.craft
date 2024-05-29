@@ -1,5 +1,5 @@
 name: Turret
-maxSize: 250
+maxSize: 100
 minSize: 1
 allowedBlocks:
     - "#pressure_plates"
@@ -23,6 +23,9 @@ allowedBlocks:
     - stone_bricks 
     - stone_brick_slab
     - stone_brick_stairs
+    - fire
+    - water
+    - obsidian
 
 
 canFly: false
@@ -36,3 +39,14 @@ allowVerticalMovement: false
 speed: 1.0
 tryNudge: false
 sinkPercent: 99.0
+
+flyblocks:
+    "#anvil": # anvils are OP armor, so limit it
+        - 0.0
+        - 1.0
+    obsidian: # so is obsidian
+        - 0.0
+        - 1.0
+    water: # so is water
+        - 0.0
+        - 1.0
