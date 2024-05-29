@@ -1,5 +1,5 @@
 name: Sub
-maxSize: 1000
+maxSize: 1250
 minSize: 10
 allowedBlocks:
     - "#planks"
@@ -114,3 +114,9 @@ flyblocks:
     "#glass":
         - 2.0
         - 15.0
+passthroughBlocks:
+    - kelp_plant
+    - seagrass
+    - kelp
+    - tall_seagrass
+    - bubble_column
