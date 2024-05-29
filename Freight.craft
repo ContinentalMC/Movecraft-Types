@@ -107,7 +107,7 @@ flyblocks:
         - 100.0
     "#chests": # limit chests to make big airships important for merchant missions
         - 0.0
-        - N2
+        - N12
     [dispenser,hopper,dropper]: # dispensers and hoppers can be used for inventory too, so limit them as well
         - 0.0
         - 6.0
