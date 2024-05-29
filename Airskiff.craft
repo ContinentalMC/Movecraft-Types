@@ -92,6 +92,7 @@ collisionExplosion: 0.0
 fuelBurnRate: 1.0
 explodeOnCrash: 2.0
 sinkSpeed: 3.0
+blockRemoteRotate: true
 overallSinkPercent: 97.0
 detectionMultiplier: 20.0
 underwaterDetectionMultiplier: 2.0
@@ -110,9 +111,9 @@ flyblocks:
     [dispenser,hopper,dropper]: # dispensers and hoppers can be used for inventory too, so limit them as well
         - 0.0
         - 6.0
-    redstone_block: # redstone represents engines
-        - 8.0
-        - 100.0
+    furnace:
+        - N1
+        - N4
     "#anvil": # anvils are OP armor, so limit it
         - 0.0
         - 1.0
