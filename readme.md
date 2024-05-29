@@ -9,5 +9,7 @@ For craft config values, please look [here](https://github.com/APDevTeam/Movecra
 
 In addition, you can also use the snippet below to set maximum cannons allowed on a craft:
 
-```maxCannons:
-    {cannontype}: N{# allowed on craft}```
+```Yaml
+maxCannons:
+    {cannontype}: N{# allowed on craft}
+```
