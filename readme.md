@@ -1,0 +1,1 @@
+Anyone is allowed to help commit to the repo! Please make a fork and then a pull request to help!
