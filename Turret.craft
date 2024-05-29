@@ -11,6 +11,13 @@ allowedBlocks:
     - gold_block
     - "#concrete"
     - "#terracotta"
+    - "#signs"
+    - "#slabs"
+    - "#stairs"
+    - "#trapdoors"
+    - "#stone_bricks"
+    - "#walls"
+    - "#doors"
     - redstone_lamp
     - end_stone_bricks
     - stone_bricks 
