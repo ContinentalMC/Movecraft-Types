@@ -1,6 +1,6 @@
 name: Submarine
 maxSize: 1250
-minSize: 10
+minSize: 150
 allowedBlocks:
     - "#planks"
     - lava
