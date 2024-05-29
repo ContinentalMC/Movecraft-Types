@@ -1,5 +1,5 @@
 # **ContinentalMC, CraftTypes!**
-***Anyone is allowed to help commit to the repo! Just make a [fork](https://github.com/ContinentalMC/CMC-Resource-Pack/fork) and a [pull request](https://github.com/ContinentalMC/Movecraft-Types/compare) to help!***
+***Anyone is allowed to help commit to the repo! Just make a [fork](https://github.com/ContinentalMC/CMC-Resource-Pack/fork) and then a [pull request](https://github.com/ContinentalMC/Movecraft-Types/compare) to help!***
 
 <sup>Basic YAML skills are required! *Though it's very simple to learn!*</sup>
 
