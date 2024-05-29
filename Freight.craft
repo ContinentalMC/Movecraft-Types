@@ -1,5 +1,5 @@
-name: Airskiff
-maxSize: 250
+name: Freight
+maxSize: 350
 minSize: 10
 allowedBlocks:
     - "#planks"
