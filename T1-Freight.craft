@@ -1,6 +1,6 @@
 name: Freight
-maxSize: 350
-minSize: 10
+maxSize: 400
+minSize: 50
 allowedBlocks:
     - "#planks"
     - "#terracotta"
