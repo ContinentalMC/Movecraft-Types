@@ -30,8 +30,7 @@ allowedBlocks:
 
 canFly: false
 canCruise: false
-canStaticMove: true
-maxStaticMove: 2
+canStaticMove: false
 collisionExplosion: 0.0
 explodeOnCrash: 2.0
 allowHorizontalMovement: false
