@@ -1,6 +1,6 @@
-name: Fighter
-maxSize: 400
-minSize: 50
+name: T2-Fighter
+maxSize: 800
+minSize: 400
 allowedBlocks:
     - "#planks"
     - "#terracotta"
