@@ -27,11 +27,11 @@ allowedBlocks:
     - torch
     - "#slabs"
     - "#stairs"
+     - "#chests"
 
 forbiddenBlocks:
     - piston_head
     - sticky_piston
-    - "#chests"
     - "#terracotta"
     - obsidian
     - "#anvil"
@@ -70,6 +70,9 @@ flyblocks:
     slime_block:
         - N0
         - N3
+    "#chests": # 5 chest capacity for minimal cargo space
+        - N0
+        - N5
 maxCannons:
     torpedo: N3
     missile: N2
