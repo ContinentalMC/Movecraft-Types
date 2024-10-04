@@ -1,5 +1,5 @@
 name: Raptor
-maxSize: 300
+maxSize: 500
 minSize: 100
 allowedBlocks:
     - "#planks"
