@@ -1,6 +1,6 @@
 name: Reaper
-maxSize: 700
-minSize: 500
+maxSize: 5000
+minSize: 1000
 allowedBlocks:
     - "#planks"
     - "#glass"
@@ -27,7 +27,7 @@ allowedBlocks:
     - torch
     - "#slabs"
     - "#stairs"
-    - "#chests" # 1 chest worth of cargo
+    - "#chests" # 10 chest worth of cargo
 
 forbiddenBlocks:
     - piston_head
@@ -70,9 +70,9 @@ flyblocks:
     slime_block:
         - N0
         - N4
-    "#chests": # 1 chest capacity for minimal cargo space
+    "#chests": # 10 chest capacity for minimal cargo space
         - N1
-        - N1
+        - N10
 maxCannons:
     torpedo: N4
     missile: N3
