@@ -1,6 +1,6 @@
 name: Nighthawk
-maxSize: 500
-minSize: 300
+maxSize: 1000
+minSize: 500
 allowedBlocks:
     - "#planks"
     - "#glass"
