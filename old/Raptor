@@ -1,0 +1,75 @@
+name: Raptor
+maxSize: 500
+minSize: 100
+allowedBlocks:
+    - "#planks"
+    - "#glass"
+    - dispenser
+    - note_block
+    - "#wool"
+    - furnace
+    - redstone_block
+    - crafting_table
+    - gold_block
+    - iron_block
+    - "#buttons"
+    - redstone_torch
+    - redstone_wall_torch
+    - "#pressure_plates"
+    - lever
+    - redstone_lamp
+    - "#trapdoors"
+    - iron_bars
+    - slime_block
+    - emerald_block
+    - beacon
+    - redstone_wire
+    - torch
+    - "#slabs"
+    - "#stairs"
+
+forbiddenBlocks:
+    - piston_head
+    - sticky_piston
+    - "#chests" # no storage for fighter planes
+    - "#terracotta"
+    - obsidian
+    - "#anvil"
+    - hopper
+    - diamond_block
+
+canFly: true
+rotateAtMidpoint: true
+canCruise: false
+cruiseSpeed: 0.0 # no cruising for fighters
+maxHeightLimit: 160
+maxHeightAboveGround: 60
+collisionExplosion: 0.1
+fuelBurnRate: 0.5
+explodeOnCrash: 1.5
+sinkSpeed: 4.0
+blockRemoteRotate: true
+overallSinkPercent: 90.0
+detectionMultiplier: 10.0
+underwaterDetectionMultiplier: 3.0
+smokeOnSink: 1
+keepMovingOnSink: true
+speed: 5.0
+tryNudge: true
+sinkPercent: 95.0
+flyblocks:
+    "#wool": # wool for lift, limited to encourage agility
+        - 15.0
+        - 50.0
+    furnace:
+        - N1
+        - N2
+    dispenser:
+        - N0
+        - N4
+    slime_block: # could be used for special maneuvers or combat features
+        - N0
+        - N2
+maxCannons:
+    torpedo: N2 # more combat capability for fighters
+    missile: N1
