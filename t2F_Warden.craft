@@ -1,0 +1,79 @@
+name: Warden
+maxSize: 1500
+minSize: 501
+allowedBlocks:
+    - "#planks"
+    - "#glass"
+    - "#concrete"
+    - "#terracotta"
+    - "#wool"
+    - "#wool_carpets"
+    - "#slabs"
+    - "#stairs"
+    - "#trapdoors"
+    - "#buttons"
+    - dispenser
+    - note_block
+    - furnace
+    - redstone_block
+    - crafting_table
+    - gold_block
+    - iron_block
+    - redstone_torch
+    - redstone_wall_torch
+    - lever
+    - redstone_lamp
+    - iron_bars
+    - slime_block
+    - emerald_block
+    - beacon
+    - redstone_wire
+    - torch
+
+forbiddenBlocks:
+    - piston_head
+    - sticky_piston
+    - "#terracotta"
+    - obsidian
+    - "#anvil"
+    - hopper
+    - diamond_block
+
+canFly: true
+rotateAtMidpoint: true
+canCruise: true
+cruiseSpeed: 2.0 # Slightly slower cruise
+maxHeightLimit: 180
+maxHeightAboveGround: 70
+collisionExplosion: 0.15
+fuelBurnRate: 0.6
+explodeOnCrash: 1.8
+sinkSpeed: 3.5
+blockRemoteRotate: true
+overallSinkPercent: 92.0
+detectionMultiplier: 12.0
+underwaterDetectionMultiplier: 4.0
+smokeOnSink: 1
+keepMovingOnSink: true
+speed: 4.0 # Slower than Raptor but still fast
+tryNudge: true
+sinkPercent: 96.0
+flyblocks:
+    "#wool": # Slightly more lift capacity for the larger plane
+        - 20.0
+        - 60.0
+    furnace:
+        - N2
+        - N4
+    dispenser:
+        - N0
+        - N6
+    "#chests": # 5 chest capacity for minimal cargo space
+        - N0
+        - N12
+    "#terracotta": # Armour Limit
+        - 0.0
+        - 45.0
+maxCannons:
+    mini-cannon: N4
+    cannonade: N1
