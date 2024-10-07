@@ -1,0 +1,79 @@
+name: Nighthawk
+maxSize: 1000
+minSize: 500
+allowedBlocks:
+    - "#planks"
+    - "#glass"
+    - dispenser
+    - note_block
+    - "#wool"
+    - furnace
+    - redstone_block
+    - crafting_table
+    - gold_block
+    - iron_block
+    - "#buttons"
+    - redstone_torch
+    - redstone_wall_torch
+    - "#pressure_plates"
+    - lever
+    - redstone_lamp
+    - "#trapdoors"
+    - iron_bars
+    - slime_block
+    - emerald_block
+    - beacon
+    - redstone_wire
+    - torch
+    - "#slabs"
+    - "#stairs"
+     - "#chests"
+
+forbiddenBlocks:
+    - piston_head
+    - sticky_piston
+    - "#terracotta"
+    - obsidian
+    - "#anvil"
+    - hopper
+    - diamond_block
+
+canFly: true
+rotateAtMidpoint: true
+canCruise: true
+cruiseSpeed: 2.0 # Slightly slower cruise
+maxHeightLimit: 180
+maxHeightAboveGround: 70
+collisionExplosion: 0.15
+fuelBurnRate: 0.6
+explodeOnCrash: 1.8
+sinkSpeed: 3.5
+blockRemoteRotate: true
+overallSinkPercent: 92.0
+detectionMultiplier: 12.0
+underwaterDetectionMultiplier: 4.0
+smokeOnSink: 1
+keepMovingOnSink: true
+speed: 4.0 # Slower than Raptor but still fast
+tryNudge: true
+sinkPercent: 96.0
+flyblocks:
+    "#wool": # Slightly more lift capacity for the larger plane
+        - 20.0
+        - 60.0
+    furnace:
+        - N2
+        - N4
+    dispenser:
+        - N0
+        - N6
+    slime_block:
+        - N0
+        - N3
+    "#chests": # 5 chest capacity for minimal cargo space
+        - N0
+        - N5
+maxCannons:
+    torpedo: N3
+    missile: N2
+    machine_gun: N1 # New weapon for increased offensive capabilities
