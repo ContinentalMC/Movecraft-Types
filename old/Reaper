@@ -1,0 +1,80 @@
+name: Reaper
+maxSize: 5000
+minSize: 1000
+allowedBlocks:
+    - "#planks"
+    - "#glass"
+    - dispenser
+    - note_block
+    - "#wool"
+    - furnace
+    - redstone_block
+    - crafting_table
+    - gold_block
+    - iron_block
+    - "#buttons"
+    - redstone_torch
+    - redstone_wall_torch
+    - "#pressure_plates"
+    - lever
+    - redstone_lamp
+    - "#trapdoors"
+    - iron_bars
+    - slime_block
+    - emerald_block
+    - beacon
+    - redstone_wire
+    - torch
+    - "#slabs"
+    - "#stairs"
+    - "#chests" # 10 chest worth of cargo
+
+forbiddenBlocks:
+    - piston_head
+    - sticky_piston
+    - "#terracotta"
+    - obsidian
+    - "#anvil"
+    - hopper
+    - diamond_block
+
+canFly: true
+rotateAtMidpoint: true
+canCruise: true
+cruiseSpeed: 1.8
+maxHeightLimit: 200
+maxHeightAboveGround: 80
+collisionExplosion: 0.2
+fuelBurnRate: 0.7
+explodeOnCrash: 2.0
+sinkSpeed: 3.0
+blockRemoteRotate: true
+overallSinkPercent: 94.0
+detectionMultiplier: 15.0
+underwaterDetectionMultiplier: 4.5
+smokeOnSink: 1
+keepMovingOnSink: true
+speed: 3.5
+tryNudge: true
+sinkPercent: 98.0
+flyblocks:
+    "#wool":
+        - 25.0
+        - 70.0
+    furnace:
+        - N3
+        - N5
+    dispenser:
+        - N0
+        - N8
+    slime_block:
+        - N0
+        - N4
+    "#chests": # 10 chest capacity for minimal cargo space
+        - N1
+        - N10
+maxCannons:
+    torpedo: N4
+    missile: N3
+    machine_gun: N2
+    bomb: N1
