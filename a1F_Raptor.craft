@@ -12,6 +12,7 @@ allowedBlocks:
     - "#stairs"
     - "#trapdoors"
     - "#buttons"
+    - "#signs"
     - dispenser
     - note_block
     - furnace
@@ -40,8 +41,9 @@ forbiddenBlocks:
 
 canFly: true
 rotateAtMidpoint: true
-canCruise: false
-cruiseSpeed: 5.0
+canCruise: true
+cruiseSpeed: 30.0
+cruiseSkipBlocks: 30
 maxHeightLimit: 321
 maxHeightAboveGround: -1
 collisionExplosion: 0.1
@@ -54,7 +56,7 @@ detectionMultiplier: 10.0
 underwaterDetectionMultiplier: 3.0
 smokeOnSink: 1
 keepMovingOnSink: true
-speed: 5.0
+speed: 20.0
 tryNudge: true
 sinkPercent: 95.0
 flyblocks:
