@@ -1,5 +1,5 @@
 name: Turret
-maxSize: 250
+maxSize: 100
 minSize: 1
 allowedBlocks:
     - "#pressure_plates"
@@ -11,17 +11,26 @@ allowedBlocks:
     - gold_block
     - "#concrete"
     - "#terracotta"
+    - "#signs"
+    - "#slabs"
+    - "#stairs"
+    - "#trapdoors"
+    - "#stone_bricks"
+    - "#walls"
+    - "#doors"
     - redstone_lamp
     - end_stone_bricks
     - stone_bricks 
     - stone_brick_slab
     - stone_brick_stairs
+    - fire
+    - water
+    - obsidian
 
 
 canFly: false
 canCruise: false
-canStaticMove: true
-maxStaticMove: 2
+canStaticMove: false
 collisionExplosion: 0.0
 explodeOnCrash: 2.0
 allowHorizontalMovement: false
@@ -29,3 +38,14 @@ allowVerticalMovement: false
 speed: 1.0
 tryNudge: false
 sinkPercent: 99.0
+
+flyblocks:
+    "#anvil": # anvils are OP armor, so limit it
+        - 0.0
+        - 1.0
+    obsidian: # so is obsidian
+        - 0.0
+        - 1.0
+    water: # so is water
+        - 0.0
+        - 1.0

@@ -1,8 +1,9 @@
-name: LaunchTorpedo
+name: Torpedo
 maxSize: 7
 minSize: 1
 allowedBlocks: 
     - coal_block
+    - tnt
 
 canCruise: true
 cruiseOnPilot: true
@@ -10,8 +11,8 @@ focusedExplosion: true
 mustBeSubcraft: true
 cruiseSkipBlocks: 1
 canFly: false
-minHeightLimit: 0
-maxHeightLimit: 255
+minHeightLimit: -64
+maxHeightLimit: 322
 detectionMultiplier: 40.0
 underwaterDetectionMultiplier: 4.0
 collisionExplosion: 3.0
