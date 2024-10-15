@@ -1,38 +1,38 @@
 name: Raptor
 maxSize: 500
-minSize: 100
+minSize: 1
 allowedBlocks:
     - "#planks"
     - "#glass"
+    - "#concrete"
+    - "#terracotta"
+    - "#wool"
+    - "#wool_carpets"
+    - "#slabs"
+    - "#stairs"
+    - "#trapdoors"
+    - "#buttons"
     - dispenser
     - note_block
-    - "#wool"
     - furnace
     - redstone_block
     - crafting_table
     - gold_block
     - iron_block
-    - "#buttons"
     - redstone_torch
     - redstone_wall_torch
-    - "#pressure_plates"
     - lever
     - redstone_lamp
-    - "#trapdoors"
     - iron_bars
     - slime_block
     - emerald_block
     - beacon
     - redstone_wire
     - torch
-    - "#slabs"
-    - "#stairs"
 
 forbiddenBlocks:
     - piston_head
     - sticky_piston
-    - "#chests" # no storage for fighter planes
-    - "#terracotta"
     - obsidian
     - "#anvil"
     - hopper
@@ -41,9 +41,9 @@ forbiddenBlocks:
 canFly: true
 rotateAtMidpoint: true
 canCruise: false
-cruiseSpeed: 0.0 # no cruising for fighters
-maxHeightLimit: 160
-maxHeightAboveGround: 60
+cruiseSpeed: 5.0
+maxHeightLimit: 321
+maxHeightAboveGround: -1
 collisionExplosion: 0.1
 fuelBurnRate: 0.5
 explodeOnCrash: 1.5
@@ -59,17 +59,21 @@ tryNudge: true
 sinkPercent: 95.0
 flyblocks:
     "#wool": # wool for lift, limited to encourage agility
-        - 15.0
+        - 12.0
         - 50.0
     furnace:
         - N1
         - N2
-    dispenser:
+    "#chests":
         - N0
-        - N4
-    slime_block: # could be used for special maneuvers or combat features
-        - N0
-        - N2
+        - N6
+    "#terracotta": # Armour Limit
+        - 0.0
+        - 35.0
+    iron_bars:
+        - 0
+        - 15
+
 maxCannons:
-    torpedo: N2 # more combat capability for fighters
-    missile: N1
+    mini-cannon: N2 # more combat capability for fighters
+    cannonade: N1

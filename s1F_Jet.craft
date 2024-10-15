@@ -1,0 +1,78 @@
+name: Jet
+maxSize: 500
+minSize: 1
+allowedBlocks:
+    - "#planks"
+    - "#glass"
+    - "#concrete"
+    - "#terracotta"
+    - "#wool"
+    - "#wool_carpets"
+    - "#slabs"
+    - "#stairs"
+    - "#trapdoors"
+    - "#buttons"
+    - dispenser
+    - note_block
+    - furnace
+    - redstone_block
+    - crafting_table
+    - gold_block
+    - iron_block
+    - redstone_torch
+    - redstone_wall_torch
+    - lever
+    - redstone_lamp
+    - iron_bars
+    - slime_block
+    - emerald_block
+    - beacon
+    - redstone_wire
+    - torch
+
+forbiddenBlocks:
+    - piston_head
+    - sticky_piston
+    - obsidian
+    - "#anvil"
+    - hopper
+    - diamond_block
+
+canFly: true
+rotateAtMidpoint: true
+canCruise: true
+cruiseSpeed: 17.0
+maxHeightLimit: 321
+maxHeightAboveGround: -1
+collisionExplosion: 0.1
+fuelBurnRate: 2.0
+explodeOnCrash: 1.5
+sinkSpeed: 8.0
+blockRemoteRotate: true
+overallSinkPercent: 90.0
+detectionMultiplier: 10.0
+underwaterDetectionMultiplier: 3.0
+smokeOnSink: 1
+keepMovingOnSink: true
+speed: 15.0
+tryNudge: true
+sinkPercent: 95.0
+flyblocks:
+    "#wool": # wool for lift, limited to encourage agility
+        - 12.0
+        - 50.0
+    furnace:
+        - N1
+        - N2
+    "#chests":
+        - N0
+        - N6
+    "#terracotta": # Armour Limit
+        - 0.0
+        - 15.0
+    iron_bars:
+        - 0
+        - 15
+
+maxCannons:
+    mini-cannon: N1

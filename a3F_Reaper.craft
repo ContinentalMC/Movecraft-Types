@@ -1,33 +1,34 @@
 name: Reaper
-maxSize: 5000
-minSize: 1000
+maxSize: 3500
+minSize: 1250
 allowedBlocks:
     - "#planks"
     - "#glass"
+    - "#concrete"
+    - "#terracotta"
+    - "#wool"
+    - "#wool_carpets"
+    - "#slabs"
+    - "#stairs"
+    - "#trapdoors"
+    - "#buttons"
     - dispenser
     - note_block
-    - "#wool"
     - furnace
     - redstone_block
     - crafting_table
     - gold_block
     - iron_block
-    - "#buttons"
     - redstone_torch
     - redstone_wall_torch
-    - "#pressure_plates"
     - lever
     - redstone_lamp
-    - "#trapdoors"
     - iron_bars
     - slime_block
     - emerald_block
     - beacon
     - redstone_wire
     - torch
-    - "#slabs"
-    - "#stairs"
-    - "#chests" # 10 chest worth of cargo
 
 forbiddenBlocks:
     - piston_head
@@ -63,18 +64,16 @@ flyblocks:
         - 70.0
     furnace:
         - N3
-        - N5
-    dispenser:
-        - N0
-        - N8
-    slime_block:
-        - N0
-        - N4
-    "#chests": # 10 chest capacity for minimal cargo space
-        - N1
         - N10
+    "#chests": # 10 chest capacity for minimal cargo space
+        - N0
+        - N12
+    "#terracotta": # Armour Limit
+        - 0.0
+        - 35.0
 maxCannons:
-    torpedo: N4
-    missile: N3
-    machine_gun: N2
-    bomb: N1
+    mini-cannon: N12
+    cannonade: N4
+    basic_cannon_d: N1
+    basic_cannon_u: N1
+
