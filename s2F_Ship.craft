@@ -39,7 +39,6 @@ forbiddenBlocks:
     - obsidian
     - "#anvil"
     - hopper
-    - diamond_block
 
 canFly: false
 requireWaterContact: true
@@ -85,6 +84,7 @@ flyblocks:
 passthroughBlocks:
     - kelp
     - Kelp_Plant
+    - snow_layer
 maxCannons:
     mini-cannon: N10
     cannonade: N2

@@ -35,11 +35,9 @@ allowedBlocks:
 forbiddenBlocks:
     - piston_head
     - sticky_piston
-    - "#terracotta"
     - obsidian
     - "#anvil"
     - hopper
-    - diamond_block
 
 canFly: true
 rotateAtMidpoint: true

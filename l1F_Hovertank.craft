@@ -35,11 +35,9 @@ allowedBlocks:
 forbiddenBlocks:
     - piston_head
     - sticky_piston
-    - "#terracotta"
     - obsidian
     - "#anvil"
     - hopper
-    - diamond_block
 
 canFly: true
 rotateAtMidpoint: true
@@ -88,6 +86,7 @@ passthroughBlocks:
     - fern
     - red_mushroom
     - brown_mushroom
+    - snow_layer
 maxCannons:
     mini-cannon: N3
     cannonade: N2
