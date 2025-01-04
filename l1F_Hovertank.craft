@@ -50,7 +50,7 @@ maxHeightLimit: 180
 maxHeightAboveGround: 5
 collisionExplosion: 0.15
 fuelBurnRate: 0.6
-explodeOnCrash: 1.8
+explodeOnCrash: 0.0
 sinkSpeed: 3.5
 blockRemoteRotate: true
 overallSinkPercent: 92.0
@@ -59,7 +59,7 @@ underwaterDetectionMultiplier: 4.0
 smokeOnSink: 1
 keepMovingOnSink: true
 speed: 4.0 # Slower than Raptor but still fast
-tryNudge: true
+tryNudge: false
 sinkPercent: 96.0
 flyblocks:
     "#concrete": # Slightly more lift capacity for the larger plane
@@ -80,6 +80,14 @@ flyblocks:
     iron_bars:
         - 0
         - 15
+passthroughBlocks:
+    - "#flowers"
+    - "#crops"
+    - tall_grass
+    - short_grass
+    - fern
+    - red_mushroom
+    - brown_mushroom
 maxCannons:
     mini-cannon: N3
     cannonade: N2
