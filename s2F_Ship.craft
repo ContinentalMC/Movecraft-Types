@@ -1,6 +1,6 @@
-name: Jet
-maxSize: 500
-minSize: 1
+name: Ship
+maxSize: 2000
+minSize: 751
 allowedBlocks:
     - "#planks"
     - "#glass"
@@ -33,46 +33,53 @@ allowedBlocks:
 forbiddenBlocks:
     - piston_head
     - sticky_piston
+    - "#terracotta"
     - obsidian
     - "#anvil"
     - hopper
     - diamond_block
 
-canFly: true
+canFly: false
+requireWaterContact: true
+allowVerticalMovement: false
 rotateAtMidpoint: true
 canCruise: true
-cruiseSpeed: 17.0
-maxHeightLimit: 321
-maxHeightAboveGround: -1
-collisionExplosion: 0.1
-fuelBurnRate: 2.0
-explodeOnCrash: 1.5
-sinkSpeed: 8.0
+cruiseSpeed: 18.0 # Slightly slower cruise
+cruiseSkipBlocks: 10
+maxHeightLimit: 180
+maxHeightAboveGround: 70
+collisionExplosion: 0.15
+fuelBurnRate: 1.0
+explodeOnCrash: 1.8
+sinkSpeed: 3.5
 blockRemoteRotate: true
-overallSinkPercent: 90.0
-detectionMultiplier: 10.0
-underwaterDetectionMultiplier: 3.0
+overallSinkPercent: 92.0
+detectionMultiplier: 12.0
+underwaterDetectionMultiplier: 4.0
 smokeOnSink: 1
 keepMovingOnSink: true
-speed: 15.0
+speed: 4.0 # Slower than Raptor but still fast
 tryNudge: true
-sinkPercent: 95.0
+sinkPercent: 96.0
 flyblocks:
-    "#wool": # wool for lift, limited to encourage agility
-        - 12.0
+    "#concrete": # wool for lift, limited to encourage agility
+        - 15.0
         - 50.0
     furnace:
-        - N1
-        - N2
-    "#chests":
+        - N3
+        - N8
+    dispenser:
         - N0
         - N6
+    "#chests": # 5 chest capacity for minimal cargo space
+        - N0
+        - N14
     "#terracotta": # Armour Limit
         - 0.0
-        - 15.0
+        - 45.0
     iron_bars:
         - 0
         - 15
-
 maxCannons:
-    mini-cannon: N1
+    mini-cannon: N10
+    cannonade: N2

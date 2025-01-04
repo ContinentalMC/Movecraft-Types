@@ -1,6 +1,6 @@
-name: Juggernaut
-maxSize: 3500
-minSize: 1250
+name: Boat
+maxSize: 750
+minSize: 1
 allowedBlocks:
     - "#planks"
     - "#glass"
@@ -33,47 +33,49 @@ allowedBlocks:
 forbiddenBlocks:
     - piston_head
     - sticky_piston
-    - "#terracotta"
     - obsidian
     - "#anvil"
     - hopper
     - diamond_block
 
-canFly: true
+canFly: false
+allowVerticalMovement: false
+requireWaterContact: true
 rotateAtMidpoint: true
 canCruise: true
-cruiseSpeed: 1.8
-maxHeightLimit: 200
-maxHeightAboveGround: 80
-collisionExplosion: 0.2
-fuelBurnRate: 0.7
-explodeOnCrash: 2.0
-sinkSpeed: 3.0
+cruiseSpeed: 25.0
+cruiseSkipBlocks: 10
+maxHeightLimit: 321
+maxHeightAboveGround: -1
+collisionExplosion: 0.1
+fuelBurnRate: 2.0
+explodeOnCrash: 1.5
+sinkSpeed: 8.0
 blockRemoteRotate: true
-overallSinkPercent: 94.0
-detectionMultiplier: 15.0
-underwaterDetectionMultiplier: 4.5
+overallSinkPercent: 90.0
+detectionMultiplier: 10.0
+underwaterDetectionMultiplier: 3.0
 smokeOnSink: 1
 keepMovingOnSink: true
-speed: 3.5
+speed: 15.0
 tryNudge: true
-sinkPercent: 98.0
+sinkPercent: 95.0
 flyblocks:
-    "#wool":
-        - 25.0
-        - 70.0
+    "#concrete": # wool for lift, limited to encourage agility
+        - 15.0
+        - 50.0
     furnace:
-        - N3
-        - N10
-    "#chests": # 10 chest capacity for minimal cargo space
+        - N1
+        - N2
+    "#chests":
         - N0
-        - N28
+        - N6
     "#terracotta": # Armour Limit
         - 0.0
-        - 45.0
-maxCannons:
-    mini-cannon: N6
-    cannonade: N2
-    basic_cannon_d: N1
-    basic_cannon_u: N1
+        - 15.0
+    iron_bars:
+        - 0
+        - 15
 
+maxCannons:
+    mini-cannon: N4

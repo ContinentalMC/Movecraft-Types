@@ -1,6 +1,6 @@
-name: Warden
-maxSize: 1500
-minSize: 501
+name: Frigate
+maxSize: 4250
+minSize: 2001
 allowedBlocks:
     - "#planks"
     - "#glass"
@@ -39,41 +39,45 @@ forbiddenBlocks:
     - hopper
     - diamond_block
 
-canFly: true
+canFly: false
+requireWaterContact: true
 rotateAtMidpoint: true
+allowVerticalMovement: false
 canCruise: true
-cruiseSpeed: 2.0 # Slightly slower cruise
-maxHeightLimit: 180
-maxHeightAboveGround: 70
-collisionExplosion: 0.15
-fuelBurnRate: 0.6
-explodeOnCrash: 1.8
-sinkSpeed: 3.5
+cruiseSpeed: 12
+maxHeightLimit: 200
+maxHeightAboveGround: 80
+collisionExplosion: 0.2
+fuelBurnRate: 1.2
+explodeOnCrash: 2.0
+sinkSpeed: 3.0
 blockRemoteRotate: true
-overallSinkPercent: 92.0
-detectionMultiplier: 12.0
-underwaterDetectionMultiplier: 4.0
+overallSinkPercent: 94.0
+detectionMultiplier: 15.0
+underwaterDetectionMultiplier: 4.5
 smokeOnSink: 1
 keepMovingOnSink: true
-speed: 4.0 # Slower than Raptor but still fast
+speed: 3.5
 tryNudge: true
-sinkPercent: 96.0
+sinkPercent: 98.0
 flyblocks:
-    "#wool": # Slightly more lift capacity for the larger plane
-        - 20.0
-        - 60.0
+    "#concrete":
+        - 15.0
+        - 50.0
     furnace:
-        - N2
         - N4
-    dispenser:
-        - N0
-        - N6
-    "#chests": # 5 chest capacity for minimal cargo space
-        - N0
         - N12
+    "#chests":
+        - N0
+        - N24
     "#terracotta": # Armour Limit
         - 0.0
         - 45.0
+    iron_bars:
+        - 0
+        - 15
 maxCannons:
-    mini-cannon: N4
-    cannonade: N1
+    mini-cannon: N20
+    cannonade: N4
+    basic_cannon_u: N2
+
