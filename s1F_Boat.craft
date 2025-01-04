@@ -51,7 +51,7 @@ maxHeightLimit: 321
 maxHeightAboveGround: -1
 collisionExplosion: 0.1
 fuelBurnRate: 2.0
-explodeOnCrash: 1.5
+explodeOnCrash: 0.5
 sinkSpeed: 8.0
 blockRemoteRotate: true
 overallSinkPercent: 90.0
