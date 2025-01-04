@@ -74,7 +74,7 @@ flyblocks:
         - N6
     "#terracotta": # Armour Limit
         - 0.0
-        - 15.0
+        - 45.0
     iron_bars:
         - 0
         - 15
