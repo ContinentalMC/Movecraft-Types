@@ -1,4 +1,4 @@
-name: Reaper
+name: Airnaught
 maxSize: 3500
 minSize: 1250
 allowedBlocks:
@@ -42,7 +42,8 @@ forbiddenBlocks:
 canFly: true
 rotateAtMidpoint: true
 canCruise: true
-cruiseSpeed: 1.8
+cruiseSpeed: 18
+cruiseSkipBlocks: 18
 maxHeightLimit: 200
 maxHeightAboveGround: 80
 collisionExplosion: 0.2
@@ -55,7 +56,7 @@ detectionMultiplier: 15.0
 underwaterDetectionMultiplier: 4.5
 smokeOnSink: 1
 keepMovingOnSink: true
-speed: 3.5
+speed: 2
 tryNudge: true
 sinkPercent: 98.0
 flyblocks:
@@ -65,10 +66,10 @@ flyblocks:
     furnace:
         - N3
         - N10
-    "#chests": # 10 chest capacity for minimal cargo space
+    "#chests":
         - N0
-        - N12
-    "#terracotta": # Armour Limit
+        - N16
+    "#terracotta":
         - 0.0
         - 35.0
 maxCannons:

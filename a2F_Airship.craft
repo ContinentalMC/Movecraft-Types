@@ -1,6 +1,6 @@
-name: Raptor
-maxSize: 500
-minSize: 1
+name: Airship
+maxSize: 1500
+minSize: 501
 allowedBlocks:
     - "#planks"
     - "#glass"
@@ -12,7 +12,6 @@ allowedBlocks:
     - "#stairs"
     - "#trapdoors"
     - "#buttons"
-    - "#signs"
     - dispenser
     - note_block
     - furnace
@@ -34,6 +33,7 @@ allowedBlocks:
 forbiddenBlocks:
     - piston_head
     - sticky_piston
+    - "#terracotta"
     - obsidian
     - "#anvil"
     - hopper
@@ -42,40 +42,39 @@ forbiddenBlocks:
 canFly: true
 rotateAtMidpoint: true
 canCruise: true
-cruiseSpeed: 30.0
-cruiseSkipBlocks: 30
-maxHeightLimit: 321
-maxHeightAboveGround: -1
-collisionExplosion: 0.1
-fuelBurnRate: 0.5
-explodeOnCrash: 1.5
-sinkSpeed: 4.0
+cruiseSpeed: 25 # Slightly slower cruise
+cruiseSkipBlocks: 25
+maxHeightLimit: 180
+maxHeightAboveGround: 70
+collisionExplosion: 0.15
+fuelBurnRate: 0.6
+explodeOnCrash: 1.8
+sinkSpeed: 3.5
 blockRemoteRotate: true
-overallSinkPercent: 90.0
-detectionMultiplier: 10.0
-underwaterDetectionMultiplier: 3.0
+overallSinkPercent: 92.0
+detectionMultiplier: 12.0
+underwaterDetectionMultiplier: 4.0
 smokeOnSink: 1
 keepMovingOnSink: true
-speed: 20.0
+speed: 4.0 # Slower than Raptor but still fast
 tryNudge: true
-sinkPercent: 95.0
+sinkPercent: 96.0
 flyblocks:
-    "#wool": # wool for lift, limited to encourage agility
-        - 12.0
-        - 50.0
+    "#wool": # Slightly more lift capacity for the larger plane
+        - 20.0
+        - 60.0
     furnace:
-        - N1
         - N2
-    "#chests":
+        - N4
+    dispenser:
         - N0
         - N6
+    "#chests": # 5 chest capacity for minimal cargo space
+        - N0
+        - N8
     "#terracotta": # Armour Limit
         - 0.0
         - 35.0
-    iron_bars:
-        - 0
-        - 15
-
 maxCannons:
-    mini-cannon: N2 # more combat capability for fighters
-    cannonade: N1
+    mini-cannon: N4
+    cannonade: N2

@@ -1,6 +1,6 @@
-name: Nighthawk
-maxSize: 1500
-minSize: 501
+name: Airskiff
+maxSize: 500
+minSize: 1
 allowedBlocks:
     - "#planks"
     - "#glass"
@@ -12,6 +12,7 @@ allowedBlocks:
     - "#stairs"
     - "#trapdoors"
     - "#buttons"
+    - "#signs"
     - dispenser
     - note_block
     - furnace
@@ -33,7 +34,6 @@ allowedBlocks:
 forbiddenBlocks:
     - piston_head
     - sticky_piston
-    - "#terracotta"
     - obsidian
     - "#anvil"
     - hopper
@@ -42,38 +42,40 @@ forbiddenBlocks:
 canFly: true
 rotateAtMidpoint: true
 canCruise: true
-cruiseSpeed: 2.0 # Slightly slower cruise
-maxHeightLimit: 180
-maxHeightAboveGround: 70
-collisionExplosion: 0.15
-fuelBurnRate: 0.6
-explodeOnCrash: 1.8
-sinkSpeed: 3.5
+cruiseSpeed: 30.0
+cruiseSkipBlocks: 30
+maxHeightLimit: 321
+# maxHeightAboveGround: -1
+collisionExplosion: 0.1
+fuelBurnRate: 0.5
+explodeOnCrash: 1.5
+sinkSpeed: 4.0
 blockRemoteRotate: true
-overallSinkPercent: 92.0
-detectionMultiplier: 12.0
-underwaterDetectionMultiplier: 4.0
+overallSinkPercent: 90.0
+detectionMultiplier: 10.0
+underwaterDetectionMultiplier: 3.0
 smokeOnSink: 1
 keepMovingOnSink: true
-speed: 4.0 # Slower than Raptor but still fast
+speed: 5.0
 tryNudge: true
-sinkPercent: 96.0
+sinkPercent: 95.0
 flyblocks:
-    "#wool": # Slightly more lift capacity for the larger plane
-        - 20.0
-        - 60.0
+    "#wool": # wool for lift, limited to encourage agility
+        - 12.0
+        - 50.0
     furnace:
+        - N1
         - N2
+    "#chests":
+        - N0
         - N4
-    dispenser:
-        - N0
-        - N6
-    "#chests": # 5 chest capacity for minimal cargo space
-        - N0
-        - N5
     "#terracotta": # Armour Limit
         - 0.0
         - 35.0
+    iron_bars:
+        - 0
+        - 15
+
 maxCannons:
-    mini-cannon: N6
-    cannonade: N2
+    mini-cannon: N2 # more combat capability for fighters
+    cannonade: N1
