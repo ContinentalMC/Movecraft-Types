@@ -45,7 +45,7 @@ canCruise: true
 cruiseSpeed: 25 # Slightly slower cruise
 cruiseSkipBlocks: 25
 maxHeightLimit: 180
-maxHeightAboveGround: 70
+# maxHeightAboveGround: 70
 collisionExplosion: 0.15
 fuelBurnRate: 0.6
 explodeOnCrash: 1.8

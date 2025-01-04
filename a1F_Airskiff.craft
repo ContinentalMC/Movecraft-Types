@@ -75,6 +75,9 @@ flyblocks:
     iron_bars:
         - 0
         - 15
+    dispenser:
+        - 0
+        - N3
 
 maxCannons:
     mini-cannon: N2 # more combat capability for fighters

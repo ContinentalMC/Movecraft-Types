@@ -45,7 +45,7 @@ canCruise: true
 cruiseSpeed: 18
 cruiseSkipBlocks: 18
 maxHeightLimit: 200
-maxHeightAboveGround: 80
+# maxHeightAboveGround: 80
 collisionExplosion: 0.2
 fuelBurnRate: 0.7
 explodeOnCrash: 2.0
@@ -72,8 +72,11 @@ flyblocks:
     "#terracotta":
         - 0.0
         - 35.0
+    dispenser:
+        - N0
+        - N16
 maxCannons:
-    mini-cannon: N12
+    mini-cannon: N10
     cannonade: N4
     basic_cannon_d: N1
     basic_cannon_u: N1
