@@ -12,6 +12,7 @@ allowedBlocks:
     - "#stairs"
     - "#trapdoors"
     - "#buttons"
+    - "#signs"
     - dispenser
     - note_block
     - furnace
