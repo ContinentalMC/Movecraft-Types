@@ -2,6 +2,7 @@ name: Airskiff
 maxSize: 500
 minSize: 1
 allowedBlocks:
+    - "#logs"
     - "#planks"
     - "#glass"
     - "#concrete"

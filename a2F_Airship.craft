@@ -2,6 +2,7 @@ name: Airship
 maxSize: 1500
 minSize: 501
 allowedBlocks:
+    - "#logs"
     - "#planks"
     - "#glass"
     - "#concrete"

@@ -2,6 +2,7 @@ name: Hovertruck
 maxSize: 125
 minSize: 25
 allowedBlocks:
+    - "#logs"
     - "#planks"
     - "#glass"
     - "#concrete"

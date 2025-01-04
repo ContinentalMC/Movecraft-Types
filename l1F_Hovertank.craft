@@ -2,6 +2,7 @@ name: Hovertank
 maxSize: 250
 minSize: 126
 allowedBlocks:
+    - "#logs"
     - "#planks"
     - "#glass"
     - "#concrete"

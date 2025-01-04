@@ -2,6 +2,7 @@ name: Boat
 maxSize: 750
 minSize: 1
 allowedBlocks:
+    - "#logs"
     - "#planks"
     - "#glass"
     - "#concrete"

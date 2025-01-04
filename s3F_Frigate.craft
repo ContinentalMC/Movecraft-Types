@@ -2,6 +2,7 @@ name: Frigate
 maxSize: 4250
 minSize: 2001
 allowedBlocks:
+    - "#logs"
     - "#planks"
     - "#glass"
     - "#concrete"

@@ -2,6 +2,7 @@ name: Ship
 maxSize: 2000
 minSize: 751
 allowedBlocks:
+    - "#logs"
     - "#planks"
     - "#glass"
     - "#concrete"
