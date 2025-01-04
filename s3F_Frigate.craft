@@ -78,6 +78,9 @@ flyblocks:
     iron_bars:
         - 0
         - 15
+passthroughBlocks:
+    - kelp
+    - Kelp_Plant
 maxCannons:
     mini-cannon: N20
     cannonade: N4
