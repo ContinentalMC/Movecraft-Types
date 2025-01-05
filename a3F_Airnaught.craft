@@ -1,6 +1,6 @@
 name: Airnaught
-maxSize: 3500
-minSize: 1250
+maxSize: 5000
+minSize: 2501
 allowedBlocks:
     - '#basicmaterials'
     - '#armor'

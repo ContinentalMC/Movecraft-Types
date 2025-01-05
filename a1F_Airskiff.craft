@@ -1,5 +1,5 @@
 name: Airskiff
-maxSize: 500
+maxSize: 750
 minSize: 1
 allowedBlocks:
     - '#basicmaterials'

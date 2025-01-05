@@ -1,6 +1,6 @@
 name: Frigate
-maxSize: 4250
-minSize: 2001
+maxSize: 6000
+minSize: 3001
 allowedBlocks:
     - '#basicmaterials'
     - '#armor'

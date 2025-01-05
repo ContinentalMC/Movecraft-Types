@@ -1,6 +1,6 @@
 name: Airship
-maxSize: 1500
-minSize: 501
+maxSize: 2500
+minSize: 751
 allowedBlocks:
     - '#basicmaterials'
     - '#armor'

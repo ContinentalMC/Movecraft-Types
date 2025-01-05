@@ -1,5 +1,5 @@
 name: Ship
-maxSize: 2000
+maxSize: 3000
 minSize: 751
 allowedBlocks:
     - '#basicmaterials'
