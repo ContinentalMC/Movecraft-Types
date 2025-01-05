@@ -23,7 +23,7 @@ cruiseSpeed: 25.0
 cruiseSkipBlocks: 10
 maxHeightLimit: 321
 maxHeightAboveGround: -1
-collisionExplosion: 0.1
+collisionExplosion: 0.0
 fuelBurnRate: 2.0
 explodeOnCrash: 0.5
 sinkSpeed: 8.0
