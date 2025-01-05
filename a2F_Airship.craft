@@ -2,35 +2,10 @@ name: Airship
 maxSize: 1500
 minSize: 501
 allowedBlocks:
-    - "#logs"
-    - "#planks"
-    - "#glass"
-    - "#concrete"
-    - "#terracotta"
-    - "#wool"
-    - "#wool_carpets"
-    - "#slabs"
-    - "#stairs"
-    - "#trapdoors"
-    - "#buttons"
-    - "#signs"
-    - dispenser
-    - note_block
-    - furnace
-    - redstone_block
-    - crafting_table
-    - gold_block
-    - iron_block
-    - redstone_torch
-    - redstone_wall_torch
-    - lever
-    - redstone_lamp
-    - iron_bars
-    - slime_block
-    - emerald_block
-    - beacon
-    - redstone_wire
-    - torch
+    - '#basicmaterials'
+    - '#armor'
+    - '#chests'
+    - '#smelter'
 
 forbiddenBlocks:
     - piston_head
@@ -62,8 +37,8 @@ sinkPercent: 96.0
 flyblocks:
     "#wool": # Slightly more lift capacity for the larger plane
         - 20.0
-        - 60.0
-    furnace:
+        - 100.0
+    "#smelter":
         - N2
         - N4
     dispenser:
@@ -72,9 +47,11 @@ flyblocks:
     "#chests": # 5 chest capacity for minimal cargo space
         - N0
         - N8
-    "#terracotta": # Armour Limit
+    "#armor": # Armour Limit
         - 0.0
         - 35.0
+passthroughBlocks:
+    - "#passthrough"
 maxCannons:
     mini-cannon: N4
     cannonade: N2

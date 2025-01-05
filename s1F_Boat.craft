@@ -2,35 +2,10 @@ name: Boat
 maxSize: 750
 minSize: 1
 allowedBlocks:
-    - "#logs"
-    - "#planks"
-    - "#glass"
-    - "#concrete"
-    - "#terracotta"
-    - "#wool"
-    - "#wool_carpets"
-    - "#slabs"
-    - "#stairs"
-    - "#trapdoors"
-    - "#buttons"
-    - "#signs"
-    - dispenser
-    - note_block
-    - furnace
-    - redstone_block
-    - crafting_table
-    - gold_block
-    - iron_block
-    - redstone_torch
-    - redstone_wall_torch
-    - lever
-    - redstone_lamp
-    - iron_bars
-    - slime_block
-    - emerald_block
-    - beacon
-    - redstone_wire
-    - torch
+    - '#basicmaterials'
+    - '#armor'
+    - '#chests'
+    - '#smelter'
 
 forbiddenBlocks:
     - piston_head
@@ -64,23 +39,18 @@ sinkPercent: 95.0
 flyblocks:
     "#concrete": # wool for lift, limited to encourage agility
         - 15.0
-        - 50.0
-    furnace:
+        - 100.0
+    "#smelter":
         - N1
         - N2
     "#chests":
         - N0
         - N6
-    "#terracotta": # Armour Limit
+    "#armor": # Armour Limit
         - 0.0
         - 45.0
-    iron_bars:
-        - 0
-        - 15
 passthroughBlocks:
-    - kelp
-    - Kelp_Plant
-    - snow_layer
+    - "#passthrough"
 
 maxCannons:
     mini-cannon: N4
