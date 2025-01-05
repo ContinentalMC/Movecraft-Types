@@ -34,8 +34,8 @@ speed: 2
 tryNudge: true
 sinkPercent: 98.0
 flyblocks:
-    "#wool":
-        - 25.0
+    "#flyblock":
+        - 12.0
         - 100.0
     "#smelter":
         - N3

@@ -35,8 +35,8 @@ speed: 4.0 # Slower than Raptor but still fast
 tryNudge: true
 sinkPercent: 96.0
 flyblocks:
-    "#wool": # Slightly more lift capacity for the larger plane
-        - 20.0
+    "#flyblock": # Slightly more lift capacity for the larger plane
+        - 12.0
         - 100.0
     "#smelter":
         - N2

@@ -36,7 +36,7 @@ speed: 5.0
 tryNudge: true
 sinkPercent: 95.0
 flyblocks:
-    "#wool": # wool for lift, limited to encourage agility
+    "#flyblock": # wool for lift, limited to encourage agility
         - 12.0
         - 100.0
     "#smelter":
