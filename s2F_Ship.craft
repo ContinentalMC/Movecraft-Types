@@ -35,7 +35,7 @@ underwaterDetectionMultiplier: 4.0
 smokeOnSink: 1
 keepMovingOnSink: true
 speed: 4.0 # Slower than Raptor but still fast
-tryNudge: true
+tryNudge: false
 sinkPercent: 96.0
 flyblocks:
     "#concrete": # wool for lift, limited to encourage agility

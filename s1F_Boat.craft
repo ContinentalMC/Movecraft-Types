@@ -34,7 +34,7 @@ underwaterDetectionMultiplier: 3.0
 smokeOnSink: 1
 keepMovingOnSink: true
 speed: 15.0
-tryNudge: true
+tryNudge: false
 sinkPercent: 95.0
 flyblocks:
     "#concrete": # wool for lift, limited to encourage agility
