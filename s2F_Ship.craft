@@ -10,7 +10,6 @@ allowedBlocks:
 forbiddenBlocks:
     - piston_head
     - sticky_piston
-    - "#terracotta"
     - obsidian
     - "#anvil"
     - hopper
