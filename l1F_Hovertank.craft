@@ -6,6 +6,7 @@ allowedBlocks:
     - '#armor'
     - '#chests'
     - '#smelter'
+    - hay_block
 
 forbiddenBlocks:
     - piston_head
@@ -55,4 +56,5 @@ passthroughBlocks:
 maxCannons:
     mini-cannon: N3
     cannonade: N2
-    basic_cannon_u: N1
+    4m-cannon: N1
+    turret-cannon: N2
