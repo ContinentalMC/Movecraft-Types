@@ -54,6 +54,4 @@ passthroughBlocks:
 maxCannons:
     mini-cannon: N10
     cannonade: N4
-    basic_cannon_d: N1
-    basic_cannon_u: N1
 
