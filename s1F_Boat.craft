@@ -6,6 +6,7 @@ allowedBlocks:
     - '#armor'
     - '#chests'
     - '#smelter'
+    - emerald_block
 
 forbiddenBlocks:
     - piston_head

@@ -6,6 +6,7 @@ allowedBlocks:
     - '#armor'
     - '#chests'
     - '#smelter'
+    - emerald_block
 
 forbiddenBlocks:
     - piston_head
@@ -55,5 +56,5 @@ maxCannons:
     4m-cannon: N4
     5m-cannon: N2
     6m-cannon: N1
-    t
+    turret-cannon: N6
 
