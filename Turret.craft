@@ -19,8 +19,8 @@ allowVerticalMovement: false
 requireWaterContact: false
 rotateAtMidpoint: true
 canCruise: false
-cruiseSpeed: 0.0
-cruiseSkipBlocks: 0.0
+cruiseSpeed: 1
+cruiseSkipBlocks: 1
 maxHeightLimit: 321
 maxHeightAboveGround: -1
 collisionExplosion: 0.0
