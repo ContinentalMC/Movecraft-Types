@@ -57,3 +57,6 @@ passthroughBlocks:
 maxCannons:
     mini-cannon: N10
     cannonade: N2
+    4m-cannon: N2
+    5m-cannon: N1
+    turret-cannon: N3
