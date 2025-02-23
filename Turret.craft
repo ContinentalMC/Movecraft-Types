@@ -33,7 +33,7 @@ detectionMultiplier: 10.0
 underwaterDetectionMultiplier: 3.0
 smokeOnSink: 1
 keepMovingOnSink: true
-speed: 15.0
+speed: 0.0
 tryNudge: false
 sinkPercent: 95.0
 flyblocks:
