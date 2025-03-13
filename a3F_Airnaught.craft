@@ -25,7 +25,7 @@ fuelBurnRate: 0.7
 explodeOnCrash: 2.0
 sinkSpeed: 3.0
 blockRemoteRotate: true
-overallSinkPercent: 94.0
+overallSinkPercent: 50.0
 detectionMultiplier: 15.0
 underwaterDetectionMultiplier: 4.5
 smokeOnSink: 1
