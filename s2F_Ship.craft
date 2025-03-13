@@ -6,7 +6,7 @@ allowedBlocks:
     - '#armor'
     - '#chests'
     - '#smelter'
-    - hay_block
+    - polished_blackstone_bricks
 
 forbiddenBlocks:
     - piston_head
